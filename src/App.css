@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+input {
+  padding: 5px;
+}
+
+.book-list { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book-card {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.book-card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.book-card p {
+  font-size: 14px;
+  color: #666;
+}
